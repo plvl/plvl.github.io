@@ -1,6 +1,6 @@
 {
   "name": "plvl.github.io",
-  "description": "A Vue.js project",
+  "description": "A Vue.js project because why not",
   "version": "1.0.0",
   "author": "plvl dev",
   "license": "MIT",
@@ -10,7 +10,11 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
-    "vue": "^2.5.11"
+    "bluebird": "^3.5.1",
+    "gsx": "^1.1.2",
+    "vue": "^2.5.11",
+    "vue-class-component": "^6.1.2",
+    "vue-property-decorator": "^6.0.0"
   },
   "browserslist": [
     "> 1%",
@@ -27,6 +31,8 @@
     "file-loader": "^1.1.4",
     "node-sass": "^4.5.3",
     "sass-loader": "^6.0.6",
+    "ts-loader": "^3.4.0",
+    "typescript": "^2.6.2",
     "vue-loader": "^13.0.5",
     "vue-template-compiler": "^2.4.4",
     "webpack": "^3.6.0",
